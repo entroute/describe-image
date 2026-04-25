@@ -1,0 +1,33 @@
+{
+  "name": "describe-image",
+  "version": "0.1.0",
+  "description": "Generate alt text or a description for any image via a verified x402 endpoint. No API key, pay-per-image in USDC.",
+  "keywords": [
+    "x402",
+    "image-description-api",
+    "alt-text-generator",
+    "image-captioning",
+    "accessibility",
+    "openai-vision-alternative",
+    "ai-agents",
+    "mcp",
+    "entroute",
+    "pay-per-request"
+  ],
+  "homepage": "https://entroute.com",
+  "bugs": "https://github.com/entroute/describe-image/issues",
+  "license": "MIT",
+  "author": "EntRoute",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@entroute/sdk-agent-ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
